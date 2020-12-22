@@ -12,4 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require vendor/simplebar/dist/simplebar.min.css
+ *= require vendor/tiny-slider/dist/tiny-slider.css
+ *= require vendor/lightgallery.js/dist/css/lightgallery.min.css
+ *= require css/theme.min.css
  */
+

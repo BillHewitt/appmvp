@@ -1,0 +1,509 @@
+<!-- Page loading spinner-->
+<div class="cs-page-loading active">
+  <div class="cs-page-loading-inner">
+    <div class="cs-page-spinner"></div><span>Loading...</span>
+  </div>
+</div>
+<main class="cs-page-wrapper">
+  <!-- Navbar (Solid background + shadow)-->
+  <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+  <header class="cs-header navbar navbar-expand-lg navbar-light bg-light navbar-box-shadow navbar-sticky" data-scroll-header>
+    <div class="navbar-search bg-light">
+      <div class="container d-flex flex-nowrap align-items-center"><i class="fe-search font-size-xl"></i>
+        <input class="form-control form-control-xl navbar-search-field" type="text" placeholder="Search site">
+        <div class="d-flex align-items-center"><span class="text-muted font-size-xs mt-1 d-none d-sm-inline">Close</span>
+          <button class="close p-2" type="button" data-toggle="search">&times;</button>
+        </div>
+      </div>
+    </div>
+    <div class="container px-0 px-xl-3">
+      <button class="navbar-toggler ml-n2 mr-4" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="index.html"><img class="d-none d-lg-block" width="153" src="/img/logo/logo-dark.png" alt="Around"/><img class="d-lg-none" width="58" src="/img/logo/logo-icon.png" alt="Around"/></a>
+      <div class="d-flex align-items-center order-lg-3 ml-lg-auto">
+        <div class="navbar-tool"><a class="navbar-tool-icon-box mr-lg-2" href="#" data-toggle="search"><i class="fe-search"></i></a></div>
+        <div class="d-lg-block d-none border-left mr-4" style="height: 30px;"></div>
+        <div class="d-lg-block d-none"><a class="social-btn sb-outline sb-facebook mr-2" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-outline sb-twitter mr-2" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-outline sb-instagram mr-2" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-outline sb-pinterest" href="#"><i class="fe-pinterest"></i></a></div>
+      </div>
+      <div class="cs-offcanvas-collapse order-lg-2" id="primaryMenu">
+        <div class="cs-offcanvas-cap navbar-box-shadow">
+          <h5 class="mt-1 mb-0">Menu</h5>
+          <button class="close lead" type="button" data-toggle="offcanvas" data-offcanvas-id="primaryMenu"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="cs-offcanvas-body">
+          <!-- Menu-->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown dropdown-mega active"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Demos</a>
+              <div class="dropdown-menu"><a class="dropdown-column dropdown-column-img bg-secondary" href="index.html" style="background-image: url(/img/demo/menu-banner.jpg);"></a>
+                <div class="dropdown-column"><a class="dropdown-item" href="index.html">Web Template Presentation</a><a class="dropdown-item" href="demo-business-consulting.html">Business Consulting</a><a class="dropdown-item" href="demo-shop-homepage.html">Shop Homepage</a><a class="dropdown-item" href="demo-booking-directory.html">Booking / Directory</a><a class="dropdown-item" href="demo-creative-agency.html">Creative Agency</a><a class="dropdown-item" href="demo-web-studio.html">Web Studio</a><a class="dropdown-item" href="demo-product-software.html">Product Landing - Software</a></div>
+                <div class="dropdown-column"><a class="dropdown-item" href="demo-product-gadget.html">Product Landing - Gadget</a><a class="dropdown-item" href="demo-mobile-app.html">Mobile App Showcase</a><a class="dropdown-item" href="demo-coworking-space.html">Coworking Space</a><a class="dropdown-item" href="demo-event-landing.html">Event Landing</a><a class="dropdown-item" href="demo-marketing-seo.html">Digital Marketing &amp; SEO</a><a class="dropdown-item" href="demo-food-blog.html">Food Blog</a><a class="dropdown-item" href="demo-personal-portfolio.html">Personal Portfolio</a></div>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Templates</a>
+              <div class="dropdown-menu">
+                <div class="dropdown-column mb-2 mb-lg-0">
+                  <h5 class="dropdown-header">Blog</h5><a class="dropdown-item" href="blog-grid-rs.html">Grid Right Sidebar</a><a class="dropdown-item" href="blog-grid-ls.html">Grid Left Sidebar</a><a class="dropdown-item" href="blog-grid-ns.html">Grid No Sidebar</a><a class="dropdown-item" href="blog-list-rs.html">List Right Sidebar</a><a class="dropdown-item" href="blog-list-ls.html">List Left Sidebar</a><a class="dropdown-item" href="blog-list-ns.html">List No Sidebar</a><a class="dropdown-item" href="blog-single-rs.html">Single Post Right Sidebar</a><a class="dropdown-item" href="blog-single-ls.html">Single Post Left Sidebar</a><a class="dropdown-item" href="blog-single-ns.html">Single Post No Sidebar</a>
+                </div>
+                <div class="dropdown-column mb-2 mb-lg-0">
+                  <h5 class="dropdown-header">Portfolio</h5><a class="dropdown-item" href="portfolio-style-1.html">Grid Style 1</a><a class="dropdown-item" href="portfolio-style-2.html">Grid Style 2</a><a class="dropdown-item" href="portfolio-style-3.html">Grid Style 3</a><a class="dropdown-item" href="portfolio-single-side-gallery-grid.html">Project Side Gallery (Grid)</a><a class="dropdown-item" href="portfolio-single-side-gallery-list.html">Project Side Gallery (List)</a><a class="dropdown-item" href="portfolio-single-carousel.html">Project Carousel</a><a class="dropdown-item" href="portfolio-single-wide-gallery.html">Project Wide Gallery</a>
+                </div>
+                <div class="dropdown-column mb-2 mb-lg-0">
+                  <h5 class="dropdown-header">Shop</h5><a class="dropdown-item" href="shop-ls.html">Grid Left Sidebar</a><a class="dropdown-item" href="shop-rs.html">Grid Right Sidebar</a><a class="dropdown-item" href="shop-ns.html">Grid No Sidebar</a><a class="dropdown-item" href="shop-single.html">Single Product</a><a class="dropdown-item" href="checkout.html">Cart &amp; Checkout</a><a class="dropdown-item" href="order-tracking.html">Order Tracking</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Account</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Dashboard</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="dashboard-orders.html">Orders</a></li>
+                    <li><a class="dropdown-item" href="dashboard-sales.html">Sales</a></li>
+                    <li><a class="dropdown-item" href="dashboard-messages.html">Messages</a></li>
+                    <li><a class="dropdown-item" href="dashboard-followers.html">Followers</a></li>
+                    <li><a class="dropdown-item" href="dashboard-reviews.html">Reviews</a></li>
+                    <li><a class="dropdown-item" href="dashboard-favorites.html">Favorites</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Account Settings</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="account-profile.html">Profile Info</a></li>
+                    <li><a class="dropdown-item" href="account-payment.html">Payment Methods</a></li>
+                    <li><a class="dropdown-item" href="account-notifications.html">Notifications</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="signin-illustration.html">Sign In - Illustration</a></li>
+                <li><a class="dropdown-item" href="signin-image.html">Sign In - Image</a></li>
+                <li><a class="dropdown-item" href="signin-signup.html">Sign In - Sign Up</a></li>
+                <li><a class="dropdown-item" href="password-recovery.html">Password Recovery</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">About</a></li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Contacts</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="contacts-v1.html">Contacts v.1</a></li>
+                    <li><a class="dropdown-item" href="contacts-v2.html">Contacts v.2</a></li>
+                    <li><a class="dropdown-item" href="contacts-v3.html">Contacts v.3</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Help Center</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="help-topics.html">Help Topics</a></li>
+                    <li><a class="dropdown-item" href="help-single-topic.html">Single Topic</a></li>
+                    <li><a class="dropdown-item" href="help-submit-request.html">Submit a Request</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">404 Not Found</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="404-simple.html">Simple Text</a></li>
+                    <li><a class="dropdown-item" href="404-illustration.html">Illustration</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">Coming Soon</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="coming-soon-image.html">Image</a></li>
+                    <li><a class="dropdown-item" href="coming-soon-illustration.html">Illustration</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Docs / UI Kit</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="docs/dev-setup.html">
+                    <div class="d-flex align-items-center">
+                      <div class="font-size-xl text-muted"><i class="fe-file-text"></i></div>
+                      <div class="pl-3"><span class="d-block text-heading">Documentation</span><small class="d-block text-muted">Kick-start customization</small></div>
+                    </div></a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="components/typography.html">
+                    <div class="d-flex align-items-center">
+                      <div class="font-size-xl text-muted"><i class="fe-layers"></i></div>
+                      <div class="pl-3"><span class="d-block text-heading">UI Kit<span class="badge badge-danger ml-2">50+</span></span><small class="d-block text-muted">Flexible components</small></div>
+                    </div></a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="docs/changelog.html">
+                    <div class="d-flex align-items-center">
+                      <div class="font-size-xl text-muted"><i class="fe-edit"></i></div>
+                      <div class="pl-3"><span class="d-block text-heading">Changelog<span class="badge badge-success ml-2">v1.2.0</span></span><small class="d-block text-muted">Regular updates</small></div>
+                    </div></a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="mailto:support@createx.studio">
+                    <div class="d-flex align-items-center">
+                      <div class="font-size-xl text-muted"><i class="fe-life-buoy"></i></div>
+                      <div class="pl-3"><span class="d-block text-heading">Support</span><small class="d-block text-muted">support@createx.studio</small></div>
+                    </div></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="cs-offcanvas-cap justify-content-center border-top"><a class="social-btn sb-lg sb-outline sb-facebook mr-3" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-lg sb-outline sb-twitter mr-3" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-lg sb-outline sb-instagram mr-3" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-lg sb-outline sb-pinterest" href="#"><i class="fe-pinterest"></i></a></div>
+      </div>
+    </div>
+  </header>
+  <!-- Page content-->
+  <!-- Hero-->
+  <section class="d-md-block d-none py-7 position-relative bg-no-repeat bg-position-center" style="background-image: url(/img/demo/food-blog/hero/bg.jpg);"><img class="d-lg-block d-none position-absolute mb-n5" src="/img/demo/food-blog/hero/bg-shape.png" alt="Shape" style="bottom: 0; left: 0;" data-jarallax-element="25" data-disable-parallax-down="md">
+    <div class="container py-lg-7 py-md-6 py-5">
+      <div class="row">
+        <div class="col-xl-6 col-md-8 col-sm-10">
+          <h1 class="display-4 mb-4 pb-3">Enjoy the new cookbook by Amelie Mayer</h1><a class="btn btn-primary" href="#book" data-scroll>Get the book</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero mobile-->
+  <section class="container d-md-none d-block px-0"><img class="d-block mx-auto mb-grid-gutter" src="/img/demo/food-blog/hero/bg-m.jpg" alt="Amelie Mayer"/>
+    <div class="mx-auto px-3 text-center" style="max-width: 500px;">
+      <h1 class="display-4 mb-4">Enjoy the new cookbook by Amelie Mayer</h1><a class="btn btn-primary" href="#book" data-scroll>Get the book</a>
+    </div>
+  </section>
+  <!-- Featured recipes-->
+  <section class="container pt-5 mt-4 mt-sm-0 pt-sm-6 pt-md-7 pb-lg-7">
+    <h2 class="h1 text-center">Featured recipes</h2>
+    <!-- Carousel-->
+    <div class="cs-carousel">
+      <!-- Carousel progress-->
+      <div class="cs-carousel-progress ml-auto mb-4 pb-2">
+        <div class="text-sm text-muted text-center mb-2"><span class="cs-current-slide mr-1"></span>of<span class="cs-total-slides ml-1"></span></div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar"></div>
+        </div>
+      </div>
+      <div class="cs-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1, &quot;gutter&quot;: 16, &quot;controls&quot;: false},&quot;500&quot;:{&quot;items&quot;:2, &quot;gutter&quot;: 16},&quot;768&quot;:{&quot;items&quot;:3, &quot;gutter&quot;: 16},&quot;991&quot;:{&quot;controls&quot;: true}}}">
+        <!-- Carousel item-->
+        <article class="pb-2"><a class="card h-100 border-0 box-shadow card-hover mx-1" href="#"><span class="badge badge-lg badge-floating badge-floating-right badge-success">Vegetarian</span>
+            <div class="card-img-top card-img-gradient"><img src="/img/demo/food-blog/featured-recipes/01.jpg" alt="Vegan Raw Seasoning Appetizers"/><span class="card-floating-text text-light font-weight-medium">Discover this recipe<i class="fe-chevron-right font-size-lg ml-1"></i></span>
+            </div>
+            <div class="card-body">
+              <div class="mb-3 text-nowrap"><span class="meta-link font-size-xs"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Oct 8</span><span class="meta-divider"></span><span class="meta-link font-size-xs"><i class="fe-message-square mr-1"></i>&nbsp;3</span></div>
+              <h3 class="h5 pt-1 mb-3">Vegan Raw Seasoning Appetizers</h3>
+              <p class="font-size-sm text-muted mb-2">10 min — 2-4 portions</p>
+            </div></a></article>
+        <!-- Carousel item-->
+        <article class="pb-2"><a class="card h-100 border-0 box-shadow card-hover mx-1" href="#"><span class="badge badge-lg badge-floating badge-floating-right badge-info">Soups</span>
+            <div class="card-img-top card-img-gradient"><img src="/img/demo/food-blog/featured-recipes/02.jpg" alt="Shrimp Soup With Chili"/><span class="card-floating-text text-light font-weight-medium">Discover this recipe<i class="fe-chevron-right font-size-lg ml-1"></i></span>
+            </div>
+            <div class="card-body">
+              <div class="mb-3 text-nowrap"><span class="meta-link font-size-xs"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Sep 29</span><span class="meta-divider"></span><span class="meta-link font-size-xs"><i class="fe-message-square mr-1"></i>&nbsp;1</span></div>
+              <h3 class="h5 pt-1 mb-3">Shrimp Soup With Chili</h3>
+              <p class="font-size-sm text-muted mb-2">35 min — 2-4 portions</p>
+            </div></a></article>
+        <!-- Carousel item-->
+        <article class="pb-2"><a class="card h-100 border-0 box-shadow card-hover mx-1" href="#"><span class="badge badge-lg badge-floating badge-floating-right badge-warning">Desserts</span>
+            <div class="card-img-top card-img-gradient"><img src="/img/demo/food-blog/featured-recipes/03.jpg" alt="Healthy Dessert With Nuts &amp; Berries"/><span class="card-floating-text text-light font-weight-medium">Discover this recipe<i class="fe-chevron-right font-size-lg ml-1"></i></span>
+            </div>
+            <div class="card-body">
+              <div class="mb-3 text-nowrap"><span class="meta-link font-size-xs"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Sep 12</span><span class="meta-divider"></span><span class="meta-link font-size-xs"><i class="fe-message-square mr-1"></i>&nbsp;4</span></div>
+              <h3 class="h5 pt-1 mb-3">Healthy Dessert With Nuts &amp; Berries</h3>
+              <p class="font-size-sm text-muted mb-2">15 min — 6-8 portions</p>
+            </div></a></article>
+        <!-- Carousel item-->
+        <article class="pb-2"><a class="card h-100 border-0 box-shadow card-hover mx-1" href="#"><span class="badge badge-lg badge-floating badge-floating-right badge-warning">Desserts</span>
+            <div class="card-img-top card-img-gradient"><img src="/img/demo/food-blog/featured-recipes/04.jpg" alt="Fluffy American pancakes"/><span class="card-floating-text text-light font-weight-medium">Discover this recipe<i class="fe-chevron-right font-size-lg ml-1"></i></span>
+            </div>
+            <div class="card-body">
+              <div class="mb-3 text-nowrap"><span class="meta-link font-size-xs"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Nov 4</span><span class="meta-divider"></span><span class="meta-link font-size-xs"><i class="fe-message-square mr-1"></i>&nbsp;2</span></div>
+              <h3 class="h5 pt-1 mb-3">Fluffy American pancakes</h3>
+              <p class="font-size-sm text-muted mb-2">10 min — 3-6 portions</p>
+            </div></a></article>
+      </div>
+    </div>
+  </section>
+  <!-- Book-->
+  <section class="container" id="book">
+    <div class="row mx-0 rounded-lg overflow-hidden" style="background-color: #f3f3f9;">
+      <div class="col-lg-6" style="background-color: #f4f4f6;">
+        <div class="media flex-sm-row flex-column py-lg-2 py-5 px-sm-5 px-4"><img class="mr-sm-5 ml-sm-0 mx-auto mb-sm-0 mb-4" src="/img/demo/food-blog/book.png" alt="New recipes book"/>
+          <div class="media-body align-self-center pl-2 text-sm-left text-center">
+            <h2 class="mb-4">The new vegan recipes book!</h2><a class="btn btn-primary" href="#"><i class="fe-download mr-1"></i>Download book</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center bg-faded-primary">
+        <div class="w-100 py-lg-2 py-5 px-sm-5 px-4">
+          <h2 class="mb-2 text-center">Subscribe our newsletter</h2>
+          <h6 class="mb-4 pb-2 font-weight-normal text-center">Never miss a post!</h6>
+          <!-- Form subscribe-->
+          <form class="input-group mx-auto" style="max-width: 600px;">
+            <input class="form-control" type="email" placeholder="Enter your email" required>
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit"><i class="fe-send font-size-xl"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Categories-->
+  <section class="container py-5 my-4 my-sm-0 py-sm-6 py-md-7">
+    <h2 class="h1 mb-4 pb-3 text-center">Popular categories</h2>
+    <div class="pb-4" data-simplebar data-simplebar-auto-hide="false">
+      <div class="d-flex justify-content-between"><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/01.svg" alt="Healthy" style="max-width: 80px;">
+          <p class="mb-0 text-center">Healthy</p></a><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/02.svg" alt="Desserts" style="max-width: 80px;">
+          <p class="mb-0 text-center">Desserts</p></a><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/03.svg" alt="Vegetarian" style="max-width: 80px;">
+          <p class="mb-0 text-center">Vegetarian</p></a><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/04.svg" alt="Seafood" style="max-width: 80px;">
+          <p class="mb-0 text-center">Seafood</p></a><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/05.svg" alt="Bakery" style="max-width: 80px;">
+          <p class="mb-0 text-center">Bakery</p></a><a class="nav-link-style" href="#" style="min-width: 120px;"><img class="d-block mx-auto mb-4" src="/img/demo/food-blog/categories/06.svg" alt="Soups" style="max-width: 80px;">
+          <p class="mb-0 text-center">Soups</p></a></div>
+    </div>
+  </section>
+  <!-- Posts with sidebar right-->
+  <section class="container">
+    <div class="row">
+      <!-- Content-->
+      <div class="col-lg-9">
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter"><a class="card-img-top" href="#" style="background-image: url(/img/demo/food-blog/posts/01.jpg);"><span class="badge badge-lg badge-floating text-white" style="background-color: #f74f78;">Seafood</span></a>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-clock font-size-base mr-2 mt-n1"></i>10 min — 6-8 portions</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Asian chilli garlic shrimps</a></h2>
+            <p class="mb-0 font-size-sm text-muted">Dignissim suspendisse in est ante in nibh mauris cursus mattis. Tempor id eu nisl nunc mi. Scelerisque eu ultrices vitae auctor. Ut faucibus pulvinar elementum integer. Sed vulputate mi sit amet mauris commodo. In eu mi bibendum neque…</p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Oct 29</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;4</a></div>
+          </div>
+        </article>
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter">
+          <div class="card-img-top d-flex align-items-center justify-content-center" style="background-image: url(/img/demo/food-blog/posts/02.jpg);"><span class="badge badge-lg badge-floating badge-warning">Desserts</span><a class="cs-video-btn cs-video-btn-sm" href="https://www.youtube.com/watch?v=JzJsUW4xV7k&amp;ab_channel=HealthNutNutrition"></a></div>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-video font-size-base mr-2 mt-n1"></i>12:49</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Belgian Waffles with Triple Berry Sauce</a></h2>
+            <p class="mb-0 font-size-sm text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa…</p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Oct 17</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;2</a></div>
+          </div>
+        </article>
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter"><a class="card-img-top" href="#" style="background-image: url(/img/demo/food-blog/posts/03.jpg);"><span class="badge badge-lg badge-floating badge-success">Vegetarian</span></a>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-clock font-size-base mr-2 mt-n1"></i>17 min — 4-6 portions</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Vegan Bowl with Avocado, Cabbage and Quinoa</a></h2>
+            <p class="mb-0 font-size-sm text-muted">Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Et harum quidem rerum facilis est et expedita distinctio. </p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Oct 9</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;3</a></div>
+          </div>
+        </article>
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter"><a class="card-img-top" href="#" style="background-image: url(/img/demo/food-blog/posts/04.jpg);"><span class="badge badge-lg badge-floating badge-primary">Healthy</span></a>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-clock font-size-base mr-2 mt-n1"></i>10 min — 2-4 portions</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Toast in a Bowl</a></h2>
+            <p class="mb-0 font-size-sm text-muted">Dui ut ornare lectus sit amet est placerat. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Nunc mattis enim ut tellus elementum sagittis vitae. Gravida dictum fusce ut placerat. Sit amet consectetur adipiscing elit duis…</p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Oct 2</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;1</a></div>
+          </div>
+        </article>
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter"><a class="card-img-top" href="#" style="background-image: url(/img/demo/food-blog/posts/05.jpg);"><span class="badge badge-lg badge-floating badge-success">Vegetarian</span></a>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-clock font-size-base mr-2 mt-n1"></i>15 min — 2-4 portions</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Vegan Stir Fry with Rice Vermicelli</a></h2>
+            <p class="mb-0 font-size-sm text-muted">Non nisi est sit amet. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Mi bibendum neque egestas congue quisque egestas diam in. Donec adipiscing tristique risus nec similique sunt in culpa…</p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Sep 15</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;4</a></div>
+          </div>
+        </article>
+        <!-- Post-->
+        <article class="card card-horizontal card-hover mb-grid-gutter">
+          <div class="card-img-top d-flex align-items-center justify-content-center" style="background-image: url(/img/demo/food-blog/posts/06.jpg);"><span class="badge badge-lg badge-floating badge-info">Soups</span><a class="cs-video-btn cs-video-btn-sm" href="https://www.youtube.com/watch?v=JzJsUW4xV7k&amp;ab_channel=HealthNutNutrition"></a></div>
+          <div class="card-body"><span class="d-inline-block mb-2 pb-1 font-size-sm text-muted"><i class="fe-video font-size-base mr-2 mt-n1"></i>20:15</span>
+            <h2 class="h4 nav-heading text-capitalize mb-3"><a href="#">Spicy Chicken Soup</a></h2>
+            <p class="mb-0 font-size-sm text-muted">Nulla aliquet enim tortor at auctor. Diam vel quam elementum pulvinar etiam. Non diam phasellus vestibulum lorem sed risus ultricies tristique. Et tortor consequat id porta nibh venenatis cras. Pellentesque id nibh tortor id aliquet lectus…</p>
+            <div class="mt-3 text-right text-nowrap"><a class="meta-link font-size-xs" href="#"><i class="fe-calendar mr-1 mt-n1"></i>&nbsp;Sep 8</a><span class="meta-divider"></span><a class="meta-link font-size-xs" href="#"><i class="fe-message-square mr-1"></i>&nbsp;1</a></div>
+          </div>
+        </article>
+        <!-- Pagination-->
+        <div class="d-md-flex justify-content-between align-items-center pt-3 pb-sm-2">
+          <div class="d-flex justify-content-center align-items-center mb-4">
+            <label class="pr-1 mr-2">Show</label>
+            <select class="form-control custom-select mr-2" style="width: 5rem;">
+              <option value="6">6</option>
+              <option value="12">12</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+            </select>
+            <div class="font-size-sm text-nowrap pl-1 mb-1">posts per page</div>
+          </div>
+          <nav class="mb-4" aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><i class="fe-chevron-left"></i></a></li>
+              <li class="page-item d-sm-none"><span class="page-link page-link-static">2 / 10</span></li>
+              <li class="page-item d-none d-sm-block"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active d-none d-sm-block" aria-current="page"><span class="page-link">2<span class="sr-only">(current)</span></span></li>
+              <li class="page-item d-none d-sm-block"><a class="page-link" href="#">3</a></li>
+              <li class="page-item d-none d-sm-block"><a class="page-link" href="#">4</a></li>
+              <li class="page-item d-none d-sm-block">...</li>
+              <li class="page-item d-none d-sm-block"><a class="page-link" href="#">10</a></li>
+              <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fe-chevron-right"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Sidebar-->
+      <aside class="col-lg-3">
+        <div class="cs-offcanvas-collapse cs-offcanvas-right" id="blog-sidebar">
+          <div class="cs-offcanvas-cap navbar-box-shadow px-4 mb-3">
+            <h5 class="mt-1 mb-0">Sidebar</h5>
+            <button class="close lead" type="button" data-toggle="offcanvas" data-offcanvas-id="blog-sidebar"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="cs-offcanvas-body px-4 pt-3 pt-lg-0 pr-lg-0 pl-lg-2 pl-xl-4" data-simplebar>
+            <!-- Categories-->
+            <div class="cs-widget cs-widget-categories mb-5">
+              <h3 class="cs-widget-title">Ingredients</h3>
+              <ul>
+                <li><a class="cs-widget-link" href="#">Apple<small class="text-muted pl-1 ml-2">23</small></a></li>
+                <li><a class="cs-widget-link" href="#">Banana<small class="text-muted pl-1 ml-2">14</small></a></li>
+                <li><a class="cs-widget-link" href="#">Berries<small class="text-muted pl-1 ml-2">7</small></a></li>
+                <li><a class="cs-widget-link" href="#">Cabbage<small class="text-muted pl-1 ml-2">19</small></a></li>
+                <li><a class="cs-widget-link" href="#">Citrus<small class="text-muted pl-1 ml-2">26</small></a></li>
+                <li><a class="cs-widget-link" href="#">Corn<small class="text-muted pl-1 ml-2">8</small></a></li>
+                <li><a class="cs-widget-link" href="#">Cucumber<small class="text-muted pl-1 ml-2">25</small></a></li>
+                <li><a class="cs-widget-link" href="#">Egg<small class="text-muted pl-1 ml-2">14</small></a></li>
+                <li><a class="cs-widget-link" href="#">Herbs<small class="text-muted pl-1 ml-2">27</small></a></li>
+                <li><a class="cs-widget-link" href="#">Potato<small class="text-muted pl-1 ml-2">29</small></a></li>
+                <li><a class="cs-widget-link" href="#">Tomatoes<small class="text-muted pl-1 ml-2">32</small></a></li>
+                <li><a class="cs-widget-link" href="#">Watermelon<small class="text-muted pl-1 ml-2">4</small></a></li>
+              </ul>
+            </div>
+            <!-- Featured posts-->
+            <div class="cs-widget mt-n1 mb-5">
+              <h3 class="cs-widget-title pb-1">Popular recipes</h3>
+              <div class="media pb-1 mb-3"><a class="d-block" href="#"><img class="rounded" width="64" src="/img/demo/food-blog/posts/th/01.jpg" alt="Post"/></a>
+                <div class="media-body pl-2 ml-1">
+                  <h4 class="font-size-md nav-heading mb-1"><a class="font-weight-medium" href="#">Sweet Cream Cupcake</a></h4>
+                  <p class="font-size-xs text-muted mb-0">by Amelie Mayer</p>
+                </div>
+              </div>
+              <div class="media pb-1 mb-3"><a class="d-block" href="#"><img class="rounded" width="64" src="/img/demo/food-blog/posts/th/02.jpg" alt="Post"/></a>
+                <div class="media-body pl-2 ml-1">
+                  <h4 class="font-size-md nav-heading mb-1"><a class="font-weight-medium" href="#">Keto Paleo Carb-Free Breakfast</a></h4>
+                  <p class="font-size-xs text-muted mb-0">by Amelie Mayer</p>
+                </div>
+              </div>
+              <div class="media pb-1 mb-3"><a class="d-block" href="#"><img class="rounded" width="64" src="/img/demo/food-blog/posts/th/03.jpg" alt="Post"/></a>
+                <div class="media-body pl-2 ml-1">
+                  <h4 class="font-size-md nav-heading mb-1"><a class="font-weight-medium" href="#">Sugar-Free Coconut Yogurt with Mango</a></h4>
+                  <p class="font-size-xs text-muted mb-0">by Amelie Mayer</p>
+                </div>
+              </div>
+            </div>
+            <!-- Tag cloud-->
+            <div class="cs-widget mb-5">
+              <h3 class="cs-widget-title pb-1">Popular tags</h3><a class="cs-tag mr-2 mb-2" href="#">#bakery</a><a class="cs-tag mr-2 mb-2" href="#">#cookbook</a><a class="cs-tag mr-2 mb-2" href="#">#cuisine</a><a class="cs-tag mr-2 mb-2" href="#">#asian food</a><a class="cs-tag mr-2 mb-2" href="#">#tips</a><a class="cs-tag mr-2 mb-2" href="#">#recipe</a><a class="cs-tag mr-2 mb-2" href="#">#chef</a><a class="cs-tag mr-2 mb-2" href="#">#vegetarian</a>
+            </div>
+            <!-- Socials-->
+            <div class="mb-5">
+              <h3 class="cs-widget-title pb-1">Follow me</h3><a class="social-btn sb-outline sb-facebook mr-2 mb-2" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-outline sb-twitter mr-2 mb-2" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-outline sb-instagram mr-2 mb-2" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-outline sb-pinterest mr-2 mb-2" href="#"><i class="fe-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <!-- Videos-->
+  <section class="container py-5 mb-4 my-sm-0 py-sm-6 py-md-7">
+    <h2 class="h1 text-center">New video recipes every Sunday</h2>
+    <p class="mx-auto mb-5 text-muted text-center" style="max-width: 600px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae</p>
+    <!-- Carousel-->
+    <div class="cs-carousel">
+      <div class="cs-carousel-inner" data-carousel-options="{&quot;navAsThumbnails&quot;: true, &quot;controls&quot;: false, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1, &quot;gutter&quot;: 16},&quot;768&quot;:{&quot;items&quot;:2, &quot;gutter&quot;: 30}}}">
+        <!-- Carousel item-->
+        <div>
+          <div class="cs-gallery"><a class="cs-gallery-item cs-gallery-video rounded-lg" href="https://www.youtube.com/watch?v=JzJsUW4xV7k&amp;ab_channel=HealthNutNutrition" data-sub-html="&lt;h6 class=&quot;font-size-sm text-light&quot;&gt;Gallery video caption&lt;/h6&gt;"><img src="/img/demo/food-blog/videos/01.jpg" alt="Gallery thumbnail"/><span class="cs-gallery-caption">Gallery video caption</span></a></div>
+        </div>
+        <!-- Carousel item-->
+        <div>
+          <div class="cs-gallery"><a class="cs-gallery-item cs-gallery-video rounded-lg" href="https://www.youtube.com/watch?v=JzJsUW4xV7k&amp;ab_channel=HealthNutNutrition" data-sub-html="&lt;h6 class=&quot;font-size-sm text-light&quot;&gt;Gallery video caption&lt;/h6&gt;"><img src="/img/demo/food-blog/videos/02.jpg" alt="Gallery thumbnail"/><span class="cs-gallery-caption">Gallery video caption</span></a></div>
+        </div>
+        <!-- Carousel item-->
+        <div>
+          <div class="cs-gallery"><a class="cs-gallery-item cs-gallery-video rounded-lg" href="https://www.youtube.com/watch?v=JzJsUW4xV7k&amp;ab_channel=HealthNutNutrition" data-sub-html="&lt;h6 class=&quot;font-size-sm text-light&quot;&gt;Gallery video caption&lt;/h6&gt;"><img src="/img/demo/food-blog/videos/03.jpg" alt="Gallery thumbnail"/><span class="cs-gallery-caption">Gallery video caption</span></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About-->
+  <section class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 mb-md-0 mb-grid-gutter"><img class="rounded-lg" src="/img/demo/food-blog/author.jpg" alt="Amelie"/>
+      </div>
+      <div class="col-lg-6 offset-lg-1 col-md-7">
+        <h2 class="mb-2">Hi! I am Amelie</h2>
+        <h3 class="h6 mb-3 text-muted">Amateur chef and creator of this blog</h3>
+        <p class="mb-4 pb-2 text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p><a class="btn btn-primary" href="#">Get to know me better</a>
+      </div>
+    </div>
+  </section>
+  <!-- Instagram-->
+  <section class="container-fluid py-5 my-4 my-sm-0 pt-sm-6 pt-md-7">
+    <h2 class="mb-5 text-center">Follow <a href='#' class='d-inline-block p-2 bg-faded-primary rounded text-primary text-decoration-0'>@amelie_chef</a> on Instagram</h2>
+    <!-- Carousel-->
+    <div class="cs-carousel">
+      <div class="cs-carousel-inner" data-carousel-options="{&quot;navAsThumbnails&quot;: true, &quot;controls&quot;: false, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2, &quot;gutter&quot;: 15}, &quot;576&quot;:{&quot;items&quot;:3}, &quot;768&quot;:{&quot;items&quot;:4, &quot;gutter&quot;: 30}, &quot;992&quot;:{&quot;items&quot;:5}, &quot;1200&quot;:{&quot;items&quot;:6}}}">
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/01.jpg" alt="01"/>
+        </div>
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/02.jpg" alt="02"/>
+        </div>
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/03.jpg" alt="03"/>
+        </div>
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/04.jpg" alt="04"/>
+        </div>
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/05.jpg" alt="05"/>
+        </div>
+        <!-- Carousel item-->
+        <div><img src="/img/demo/food-blog/instagram/06.jpg" alt="06"/>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Footer-->
+<footer class="cs-footer bg-dark pt-5 pt-md-6">
+  <div class="container pt-3 pb-0 pt-md-0 pb-md-3">
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="cs-widget cs-widget-light pb-2 mb-4">
+          <h4 class="cs-widget-title">Contacts</h4>
+          <ul>
+            <li><a class="cs-widget-link" href="mailto:support@example.com"><i class="fe-mail font-size-lg mr-2"></i>amelie.chef@example.com</a></li>
+            <li><a class="cs-widget-link" href="tel:9107848015"><i class="fe-phone font-size-lg mr-2"></i>910-784-8015</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cs-widget cs-widget-light pb-2 mb-4">
+          <h4 class="cs-widget-title">Follow</h4><a class="social-btn sb-outline sb-lg sb-light sb-facebook mr-2" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-outline sb-lg sb-light sb-twitter mr-2" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-outline sb-lg sb-light sb-instagram mr-2" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-outline sb-lg sb-light sb-pinterest" href="#"><i class="fe-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cs-widget cs-widget-light pb-3 mb-4">
+          <h4 class="cs-widget-title">Subscribe and never miss a post!</h4>
+          <form class="cs-subscribe-form validate" action="https://studio.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+            <div class="input-group input-group-overlay flex-nowrap">
+              <div class="input-group-prepend-overlay"><span class="input-group-text text-muted"><i class="fe-mail"></i></span></div>
+              <input class="form-control prepended-form-control" type="email" name="EMAIL" placeholder="Your email">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit" name="subscribe">Subscribe*</button>
+              </div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input class="cs-subscribe-form-antispam" type="text" name="b_c7103e2c981361a6639545bd5_29ca296126" tabindex="-1">
+            </div><small class="form-text text-light opacity-50 pt-1">*Subscribe to our newsletter and be the first to get notified about updates.</small>
+            <div class="cs-subscribe-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="font-size-sm mb-3 order-md-1"><span class="text-light opacity-50 mr-1">&copy; All rights reserved. Made by</span><a class="nav-link-style nav-link-light" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a></p>
+  </div>
+</footer>
+<!-- Sidebar toggle button-->
+<button class="btn btn-primary btn-sm cs-sidebar-toggle" type="button" data-toggle="offcanvas" data-offcanvas-id="blog-sidebar"><i class="fe-sidebar font-size-base mr-2"></i>Sidebar</button>
+<!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll><span class="btn-scroll-top-tooltip text-muted font-size-sm mr-2">Top</span><i class="btn-scroll-top-icon fe-arrow-up">   </i></a>
+<!-- Vendor scrits: js libraries and plugins-->
+<script src="/vendor/jquery/dist/jquery.slim.min.js"></script>
+<script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+<script src="/vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+<script src="/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+<script src="/vendor/lg-video.js/dist/lg-video.min.js"></script>
+<!-- Main theme script-->
+<script src="/js/theme.min.js"></script>
